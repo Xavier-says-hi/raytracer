@@ -1,7 +1,7 @@
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
 
-function writeHello() {
+function main() {
   clearCanvas();
   resizeCanvas(300,500);
   ctx.font = "30px Arial";
@@ -9,12 +9,8 @@ function writeHello() {
   ctx.fillText("Hello", 50, 100);
 }
 
-function writeWorld() {
+function stop() {
   clearCanvas();
-  resizeCanvas(350,400);
-  ctx.font = "30px Arial";
-  ctx.fillStyle = "green";
-  ctx.fillText("World", 200, 100);
 }
 
 function clearCanvas() {
@@ -22,6 +18,6 @@ function clearCanvas() {
 }
 
 function resizeCanvas(x,y) {
-  canvas.height = x;
-  canvas.width = y;
+  canvas.height = y;
+  canvas.width = x;
 }
