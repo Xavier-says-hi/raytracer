@@ -22,6 +22,6 @@ function clearCanvas() {
 }
 
 function resizeCanvas(x,y) {
-  canvas.height = y;
-  canvas.width = x;
+  canvas.height = x;
+  canvas.width = y;
 }
