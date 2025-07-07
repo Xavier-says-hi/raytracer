@@ -1,2 +1,1 @@
-blue = "blue";
-module.exports = { blue };
+export const blue = "blue";

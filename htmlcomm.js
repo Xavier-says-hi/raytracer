@@ -1,4 +1,4 @@
-const { blue } = require('./test.js');
+import { blue } from './test.mjs';
 
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
