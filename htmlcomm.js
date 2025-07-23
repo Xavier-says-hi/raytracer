@@ -1,3 +1,7 @@
+console.log("Script 2 loaded!");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("DOM fully loaded and parsed.");
+});
 window.onload = function() {
   const canvas = document.getElementById("myCanvas");
   const ctx = canvas.getContext("2d");
