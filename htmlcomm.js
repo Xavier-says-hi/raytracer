@@ -1,9 +1,7 @@
-import { blue } from './test.mjs';
-
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
 
-export function main() {
+function main() {
   clearCanvas();
   resizeCanvas(300,500);
   ctx.font = "30px Arial";
@@ -11,7 +9,7 @@ export function main() {
   ctx.fillText("Hello", 50, 100);
 }
 
-export function stop() {
+function stop() {
   clearCanvas();
 }
 
